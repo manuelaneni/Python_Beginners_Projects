@@ -11,7 +11,7 @@
 # loops
 
 # START
-# First, we import the "random moudle".
+# First, we import the "random module".
 import random
 
 # define a function for the code.
@@ -36,7 +36,7 @@ def guess():
                         if count > 5:
                             print(f"\nBravo {user_name.title()}👍, next time get your tries below 5 ")
                         else:
-                            print(f"\nThat was exllecent {user_name.title()} 🌟")
+                            print(f"\nThat was excellent {user_name.title()} 🌟")
                         break
                     elif guess_number > num_to_guess:
                         count += 1
